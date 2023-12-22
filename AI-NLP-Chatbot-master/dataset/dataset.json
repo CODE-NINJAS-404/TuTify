@@ -1,0 +1,44 @@
+{"intents": [
+        
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","heyy","Is anyone there?"],
+         "responses": ["Hi there, how can I help?","Hello","Good to see you again!!","Greetings!!","How can I be of service.","hi there! How's your classes going."],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day","terminate","exit","I got to go."],
+         "responses": ["Farewell, hope I was of help! :)","goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "identity",
+         "patterns": ["who are you?", "what are you", "tell me about yourself.","who created you","who made you?","who designed you?","your creators","your designers."],
+         "responses": ["Hi! I am Genysis, AI Chatbot designed and developed by team Malevolent Shrine","Hello! I am Genysis aka AI chatbot for Tutify online tutoring website","I am Genysis, Your personal AI chatbot."], 
+         	"context_set": ""
+        },
+        {"tag": "time table",
+         "patterns": ["what is my schedule?", "today's timetable","Is there any classes today?",""],
+         "responses": ["First you have Operating system, second you have Automata theory and compiler design, later you have DBMS and lastly Computer Networks."], 
+         	"context_set": ""
+        },
+        {"tag": "time",
+         "patterns": ["what is class timings?","class timings","when should I attend the classes?"],
+         "responses": ["Class is from 9 AM to 5 PM, Monday to Friday.."], 
+         	"context_set": ""
+        },
+        
+        {"tag": "doubts",
+         "patterns": ["I have a doubt.","where can I ask my doubt?"],
+         "responses": ["You can clear your doubts in the doubt session","Have your Queries in the Doubt session."], 
+         	"context_set": ""
+        },
+        
+        {"tag": "time",
+         "patterns": ["what is college timings?","college timings","when should i come to college?","Is college open on saturday"],
+         "responses": ["College is open 9 AM to 5 PM, Monday to Friday.."], 
+         	"context_set": ""
+        }
+
+     
+        
+   ]
+}
